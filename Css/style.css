@@ -5,7 +5,7 @@
     --cor_2: #6320EE; /* Eletric indigo */
     --cor_3: #8075FF; /* Medium slate blue */
     --cor_4: #F8F0FB; /* Magnolia */
-    --cor_5: #CAD5CA; /* Ash gray */
+    --cor_5: #F2F2F2; /* Ash gray */
 }
 
 * {
@@ -15,8 +15,9 @@
     text-decoration: none;
     color: black
 }
+
 body {
-    background-color: black;
+    background-color: var(--cor_5);
 }
 
 .fundo {
@@ -24,13 +25,13 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 80vh;
-    width: 100vw;
+    width: 100%;
 }
 
 header {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 30px;
 }
 
@@ -47,6 +48,7 @@ header > div > div > img {
 header h1 {
     color: white;
     font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
     cursor: pointer;
 }
 
@@ -56,4 +58,94 @@ nav {
 
 nav a {
     color: white;
+}
+
+#main_parte_1 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    align-items: center;
+}
+
+#main_parte_1 div {
+    height: 33vh;
+    width: 85vw;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+#main_parte_1 > div > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+    transition: 0.2s ease-in-out;
+}
+
+#main_parte_1 > div > img:hover {
+    filter:brightness(50%);
+    transform: scale(1.02);
+}
+
+#img-3 {
+    display: none;
+}
+
+#main_parte_2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#main_parte_2 div {
+    background-color: white;
+    height: auto;
+    width: 65vw;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+#main_parte_2 > div > img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center center;
+    transition: 0.2s ease-in-out;
+}
+
+#main_parte_2 > div > img:hover {
+    filter:brightness(50%);
+    transform: scale(1.02);
+}
+
+#main_parte_2 > div > div {
+    padding: 15px;
+}
+
+.data {
+    font-size: 0.9em;
+}
+
+#main_parte_2 > div > div > p {
+    width: 95%;
+    margin: 15px 0px;
+}
+
+#main_parte_2 > div > div > h2 {
+    font-family:  'Times New Roman', Times, serif;
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #211A1D;
+    width: 95%;
+}
+
+#main_parte_2 > div > div > h2:hover {
+    text-decoration: underline;
+}
+
+#main_parte_2 a {
+    color: var(--cor_2);
+    font-weight: bolder;
 }
