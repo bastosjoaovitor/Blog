@@ -11,3 +11,7 @@ Este é o meu segundo projeto, um blog de música chamado "Sonittus".
 ## Sobre o Projeto 📝
 
 O Sonittus é um blog de música fictício criado como um projeto de portfólio. Embora o conteúdo do blog seja fictício, cada elemento foi cuidadosamente projetado e implementado para criar uma experiência de usuário realista. O projeto abrange várias áreas do desenvolvimento web, desde o design responsivo até a implementação de interatividade com JavaScript.
+
+## Link do Projeto 🌐
+
+[Clique Aqui](https://bastosjoaovitor.github.io/Blog/Pages/home.html) ou acesse o link "https://bastosjoaovitor.github.io/Blog/Pages/home.html"
