@@ -83,7 +83,7 @@ nav a {
 }
 
 #main_parte_1 > div > img:hover {
-    filter:brightness(50%);
+    filter: brightness(50%);
     transform: scale(1.02);
 }
 
@@ -116,7 +116,7 @@ nav a {
 }
 
 #main_parte_2 > div > img:hover {
-    filter:brightness(50%);
+    filter: brightness(50%);
     transform: scale(1.02);
 }
 
@@ -129,7 +129,7 @@ nav a {
 }
 
 #main_parte_2 > div > div > p {
-    width: 95%;
+    width: 90%;
     margin: 15px 0px;
 }
 
@@ -138,14 +138,21 @@ nav a {
     font-size: 1.8em;
     font-weight: bold;
     color: #211A1D;
-    width: 95%;
+    width: 90%;
+    transition: 0.2s ease-in-out;
 }
 
 #main_parte_2 > div > div > h2:hover {
     text-decoration: underline;
+    text-decoration-thickness: 1px;
 }
 
 #main_parte_2 a {
     color: var(--cor_2);
     font-weight: bolder;
+}
+
+#main_parte_2 a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
 }

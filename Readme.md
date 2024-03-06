@@ -14,4 +14,4 @@ O Sonittus é um blog de música fictício criado como um projeto de portfólio.
 
 ## Link do Projeto 🌐
 
-[Clique Aqui](https://bastosjoaovitor.github.io/Blog/Pages/home.html) ou acesse o link "https://bastosjoaovitor.github.io/Blog/Pages/home.html"
+<p><a href="https://bastosjoaovitor.github.io/Blog/Pages/home.html" target="_blank">Clique aqui</a> ou acesse o link "https://bastosjoaovitor.github.io/Blog/Pages/home.html"</p>
