@@ -52,7 +52,7 @@ header h1 {
     cursor: pointer;
 }
 
-nav {
+nav#botoes {
     display: none;
 }
 
@@ -192,4 +192,76 @@ nav a {
 #main_parte_2 a:hover {
     text-decoration: underline;
     text-decoration-thickness: 1px;
+}
+
+nav#pagination {
+    margin: 50px 0px;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+}
+
+#pagination div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+}
+
+#pagination a {
+    padding: 10px;
+    font-weight: bolder;
+}
+
+div.default {
+    transition: 0.3s ease-in-out;
+}
+
+div.default:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+}
+
+div.default a {
+    color: black;
+}
+
+div.selected {
+    background-color: black;
+    border-radius: 3px;
+}
+
+div.selected a {
+    color: white;
+}
+
+div.seta {
+    background-color: white;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    font-size: 1.1em;
+}
+
+div.seta:hover {
+    background-color: black;
+    color: white;
+}
+
+div.seta a {
+    position: relative;
+    color: black;
+    top: -3.5%;
+    font-weight: bolder;
+    font-size: 1.4em;
+    transition: 0.3s ease-in-out;
+}
+
+div.seta a:hover {
+    color: white;
+}
+
+footer {
+    display: block;
 }
