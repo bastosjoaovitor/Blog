@@ -22,7 +22,7 @@ body {
 
 .fundo {
     position: absolute;
-    background-image: url(../Images/fundo.jpeg);
+    background-image: url(../Images/medio/fundo.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 80vh;
@@ -404,12 +404,14 @@ footer div.desenho_linha {
 
 #email_footer span {
     color: white;
-    font-size: 1.5em;
+    font-size: 2em;
+    padding: 0px 10px 0px 5px;
 }
 
 #email_footer #email {
     border: none;
     caret-color: white;
+    color: white;
     background-color: #161618;
 }
 
@@ -425,5 +427,6 @@ footer div.desenho_linha {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 0.75em;
     font-weight: bolder;
+    cursor: pointer;
     border: none;
 }
