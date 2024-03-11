@@ -284,7 +284,7 @@ div.seta a:hover {
 
 #popular div {
     display: flex;
-    width: 420px;
+    width: 80vw;
     height: 69px;
     overflow: hidden;
 }
