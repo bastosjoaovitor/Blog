@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 :root {
-    --cor_1: #211A1D; /* Raisin black */
+    --cor_1: #19191B; /* Eerie black */
     --cor_2: #6320EE; /* Eletric indigo */
     --cor_3: #8075FF; /* Medium slate blue */
     --cor_4: #F8F0FB; /* Magnolia */
@@ -168,6 +168,7 @@ nav a {
 
 #main_parte_2 > div > div > p {
     width: 90%;
+    line-height: 1.4em;
     margin: 15px 0px;
     color: rgba(0, 0, 0, 0.6);
 }
@@ -275,6 +276,7 @@ div.seta a:hover {
 #popular h2 {
     color: black;
     padding-top: 60px;
+    padding-bottom: 15px;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     font-size: 2em;
@@ -311,6 +313,9 @@ div.seta a:hover {
 }
 
 #about_site {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: white;
 }
 
@@ -327,8 +332,98 @@ div.seta a:hover {
     text-align: center;
     color: rgba(0, 0, 0, 0.5);
     padding: 20px;
+    line-height: 1.6em;
+    width: 80vw;
+}
+
+#social-media-2 {
+    display: flex;
+    background-color: white;
+    column-gap: 20px;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+#social-media-2 img {
+    width: 25px;
 }
 
 footer {
-    display: block;
+    padding: 40px 0px 70px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+    justify-content: center;
+    background-color: #19191B;
+}
+
+footer h2 {
+    padding: 40px 0px 13px 0px;
+    text-align: center;
+    font-size: 1em;
+    letter-spacing: 2px;
+}
+
+footer a {
+    text-align: center;
+    color: #696969;
+    cursor: pointer;
+}
+
+footer p {
+    text-align: center;
+    color: rgb(105, 105, 105);
+    width: 75vw;
+    line-height: 1.5em;
+}
+
+footer div.desenho_linha {
+    width: 60vw;
+    height: 1px;
+    background-color: #202022;
+}
+
+#email_footer {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+#email_footer div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 5px;
+    background-color: #161618;
+    padding: 10px;
+}
+
+#email_footer span {
+    color: white;
+    font-size: 1.5em;
+}
+
+#email_footer #email {
+    border: none;
+    caret-color: white;
+    background-color: #161618;
+}
+
+#email_footer #email:focus {
+    outline: none;
+}
+
+#email_footer #submit {
+    background-color: var(--cor_3);
+    height: 50px;
+    width: 70px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 0.75em;
+    font-weight: bolder;
+    border: none;
 }
