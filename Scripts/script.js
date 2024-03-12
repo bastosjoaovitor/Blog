@@ -21,3 +21,18 @@ document.getElementById('div-img-3').addEventListener('mouseover', function() {
 document.getElementById('div-img-3').addEventListener('mouseout', function() {
     document.getElementById('img-3').style.filter = 'brightness(100%)';
 });
+
+function abrir_menu() {
+    let nav = document.getElementById("botoes");
+    window.scrollTo(0, 0);
+    document.body.style.overflow = 'hidden';
+    nav.style.opacity = "1";
+    nav.style.visibility = "visible";
+}
+
+function fechar_menu() {
+    let nav = document.getElementById("botoes");
+    nav.style.opacity = "0";
+    nav.style.visibility = "hidden";
+    document.body.style.overflow = 'auto';
+}
