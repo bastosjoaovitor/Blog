@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../Css/style.css">
     <link rel="stylesheet" href="../Css/media-query.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
     <div class="fundo">
@@ -22,7 +23,7 @@
             </div>
             <h1>Sonittus</h1>
             <div>
-                <img src="../Images/icons/icon-lupa.png" alt="icon-lupa">
+                <img src="../Images/icons/icon-lupa.png" alt="icon-lupa" onclick="abrir_pesquisa()">
             </div>
         </header>
         <nav id="botoes">
@@ -39,6 +40,15 @@
             <div></div>
             <a href="#">Contact</a>
             <div></div>
+        </nav>
+        <nav id="pesquisa">
+            <img src="../Images/icons/X.png" onclick="fechar_pesquisa()">
+            <h2>Search for:</h2>
+            <div>
+                <input type="text" name="pesquisa" id="pesquisa">
+                <label for="pesquisa"><span class="material-symbols-outlined">arrow_forward</span></label>
+            </div>
+            <p>Press Enter to begin your search.</p>
         </nav>
         <main>
             <div id="main_parte_1">

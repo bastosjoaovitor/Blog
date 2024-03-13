@@ -36,3 +36,18 @@ function fechar_menu() {
     nav.style.visibility = "hidden";
     document.body.style.overflow = 'auto';
 }
+
+function abrir_pesquisa() {
+    let nav = document.getElementById("pesquisa");
+    window.scrollTo(0, 0);
+    document.body.style.overflow = 'hidden';
+    nav.style.opacity = "1";
+    nav.style.visibility = "visible";
+}
+
+function fechar_pesquisa() {
+    let nav = document.getElementById("pesquisa");
+    nav.style.opacity = "0";
+    nav.style.visibility = "hidden";
+    document.body.style.overflow = 'auto';
+}
