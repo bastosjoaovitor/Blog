@@ -15,11 +15,11 @@ document.getElementById('div-img-2').addEventListener('mouseout', function() {
 });
 
 document.getElementById('div-img-3').addEventListener('mouseover', function() {
-    document.getElementById('img-3').style.filter = 'brightness(50%)';
+    document.getElementById('img-3').style.filter = 'brightness(60%)';
 });
 
 document.getElementById('div-img-3').addEventListener('mouseout', function() {
-    document.getElementById('img-3').style.filter = 'brightness(100%)';
+    document.getElementById('img-3').style.filter = 'brightness(50%)';
 });
 
 function abrir_menu() {

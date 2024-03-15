@@ -211,6 +211,10 @@ nav#pesquisa {
     filter: brightness(40%);
 }
 
+#img-3 {
+    filter: brightness(50%);
+}
+
 #main_parte_1 div div {
     display: flex;
     flex-direction: column;
