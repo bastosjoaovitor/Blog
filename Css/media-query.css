@@ -1,6 +1,9 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 768px) {
+
+
+
+@media screen and (min-width: 768px) {                                               /* TELAS PEQUENAS(celular) */
 
     #main_parte_2 {
         flex-direction: row;
@@ -9,7 +12,14 @@
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 991px) {
+
+
+
+@media screen and (min-width: 768px) and (max-width: 991px) {                        /* TELAS PEQUENAS(tablets) */
+
+    header h1 {
+        color: rgb(0, 255, 42);
+    }
 
     #main_parte_2 {
         column-gap: 5vw;
@@ -20,16 +30,90 @@
     }
 }
 
-@media screen and (min-width: 992px) and (max-width: 1199px) {
+
+
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {                       /* TELAS MÉDIAS (notebook, tablet em modo paisagem) */
+
+    .fundo {
+        height: 91vh;
+    }
 
     header {
-        max-width: 1100px;
+        max-width: 1000px;
         margin: auto;
     }
 
     header h1 {
-        /* color: yellow; */
+        color: yellow;
         letter-spacing: 5px;
+    }
+
+    header div {
+        display: flex;
+        justify-content: flex-end;
+        width: 125px;
+    }
+
+    #social-media > img {
+        display: none;
+    }
+
+    #social-media > div {
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        column-gap: 15px;
+    }
+
+    #social-media > div > img {
+        width: 20px;
+        position: relative;
+        padding-top: 10%;
+    }
+
+    #separacao-header-nav {
+        width: 85vw;
+        height: 2px;
+        margin: auto;
+        background-color: #202022;
+    }
+
+    nav#botoes {
+        background-color: transparent;
+        position: relative;
+        width: 60%;
+        height: auto;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 75px;
+        flex-direction: row;
+        justify-content: space-around;
+        opacity: 1;
+        visibility: visible;
+    }
+    
+    nav#botoes img {
+        display: none;
+    }
+    
+    nav#botoes h2 {
+        display: none;
+    }
+    
+    nav#botoes div {
+        display: none;
+    }
+    
+    nav#botoes #div_1_botoes {
+        display: none;
+        width: auto;
+        margin-top: 30px;
+    }
+    
+    nav#botoes a {
+        width: auto;
+        font-weight: normal;
     }
 
     #main_parte_1 {
@@ -78,23 +162,99 @@
     }
 }
 
-@media screen and (min-width: 1200px) and (max-width: 1545px) {
+
+
+
+@media screen and (min-width: 1200px) and (max-width: 1545px) {                      /* TELAS GRANDES (pc, televisão) */
+
+    .fundo {
+        height: 90vh;
+    }
 
     header {
-        max-width: 1100px;
+        max-width: 1000px;
         margin: auto;
     }
 
     header h1 {
+        color: aqua;
         letter-spacing: 5px;
+    }
+
+    header div {
+        display: flex;
+        justify-content: flex-end;
+        width: 125px;
+    }
+
+    #social-media > img {
+        display: none;
+    }
+
+    #social-media > div {
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        column-gap: 15px;
+    }
+
+    #social-media > div > img {
+        width: 20px;
+        position: relative;
+        padding-top: 10%;
+    }
+
+    #separacao-header-nav {
+        width: 85vw;
+        height: 2px;
+        margin: auto;
+        background-color: #202022;
+    }
+
+    nav#botoes {
+        background-color: transparent;
+        position: relative;
+        width: 60%;
+        height: auto;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 75px;
+        flex-direction: row;
+        justify-content: space-around;
+        opacity: 1;
+        visibility: visible;
+    }
+    
+    nav#botoes img {
+        display: none;
+    }
+    
+    nav#botoes h2 {
+        display: none;
+    }
+    
+    nav#botoes div {
+        display: none;
+    }
+    
+    nav#botoes #div_1_botoes {
+        display: none;
+        width: auto;
+        margin-top: 30px;
+    }
+    
+    nav#botoes a {
+        width: auto;
+        font-weight: normal;
     }
 
     #main_parte_1 {
         display: grid;
-        max-width: 1200px;
         height: 65vh;
+        max-width: 1200px;
         gap: 0px;
         margin: auto;
+        padding: 0px 30px;
         grid-template-columns: 67% 1fr;
         grid-template-rows: 50% 50%;
     }
@@ -138,15 +298,90 @@
     }
 }
 
-@media screen and (min-width: 1546px) {
+
+
+
+@media screen and (min-width: 1546px) {                                              /* TELAS GRANDES (pc, televisão) */
+
+    .fundo {
+        height: 90vh;
+    }
 
     header {
-        max-width: 1100px;
+        max-width: 1000px;
         margin: auto;
     }
 
     header h1 {
+        color: rgb(255, 0, 0);
         letter-spacing: 5px;
+    }
+
+    header div {
+        display: flex;
+        justify-content: flex-end;
+        width: 125px;
+    }
+
+    #social-media > img {
+        display: none;
+    }
+
+    #social-media > div {
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        column-gap: 15px;
+    }
+
+    #social-media > div > img {
+        width: 20px;
+        position: relative;
+        padding-top: 10%;
+    }
+
+    #separacao-header-nav {
+        width: 85vw;
+        height: 2px;
+        margin: auto;
+        background-color: #202022;
+    }
+
+    nav#botoes {
+        background-color: transparent;
+        position: relative;
+        width: 60%;
+        height: auto;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 75px;
+        flex-direction: row;
+        justify-content: space-around;
+        opacity: 1;
+        visibility: visible;
+    }
+    
+    nav#botoes img {
+        display: none;
+    }
+    
+    nav#botoes h2 {
+        display: none;
+    }
+    
+    nav#botoes div {
+        display: none;
+    }
+    
+    nav#botoes #div_1_botoes {
+        display: none;
+        width: auto;
+        margin-top: 30px;
+    }
+    
+    nav#botoes a {
+        width: auto;
+        font-weight: normal;
     }
 
     #main_parte_1 {
