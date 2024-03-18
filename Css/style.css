@@ -18,6 +18,7 @@
 
 body {
     background-color: var(--cor_5);
+    overflow-x: hidden;
 }
 
 .fundo {
@@ -398,36 +399,40 @@ div.seta a:hover {
     font-size: 2em;
 }
 
-#popular div {
+#popular div div {
     display: flex;
     width: 90vw;
     height: auto;
     overflow: hidden;
 }
 
-#popular div img {
+#popular div div img {
     height: 69px;
     width: 69px;
 }
 
-#popular div div {
+#popular div div div {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     row-gap: 10%;
 }
 
-#popular div div h3 {
+#popular div div div h3 {
     font-weight: bolder;
     font-size: 1.1em;
     margin-left: 5%;
 }
 
-#popular div div p {
+#popular div div div p {
     font-size: 0.9em;
     color: rgba(0, 0, 0, 0.7);
     margin-left: 5%;
     max-width: 300px;
+}
+
+#popular .popular-2 {
+    display: none;
 }
 
 #about_site {

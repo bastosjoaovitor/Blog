@@ -17,16 +17,21 @@
 
 @media screen and (min-width: 768px) and (max-width: 991px) {                        /* TELAS PEQUENAS(tablets) */
 
-    header h1 {
-        color: rgb(0, 255, 42);
-    }
-
     #main_parte_2 {
         column-gap: 5vw;
     }
 
     #main_parte_2 div {
         width: 40vw;
+    }
+
+    #popular {
+        margin: auto;
+    }
+
+    #popular div div {
+        width: 50vw;
+        margin: 10px 0px;
     }
 }
 
@@ -45,7 +50,6 @@
     }
 
     header h1 {
-        color: yellow;
         letter-spacing: 5px;
     }
 
@@ -160,6 +164,22 @@
     #main_parte_2 div {
         width: 25vw;
     }
+
+    #popular {
+        padding: 0px 30px;
+        height: 410px;
+        flex-wrap: wrap;
+        overflow: hidden;
+        width: auto;
+        margin: 0px;
+    }
+
+    #popular .popular-2 {
+        display: flex;
+        position: relative;
+        top: 48%;
+        left: -45%;
+    }
 }
 
 
@@ -177,7 +197,6 @@
     }
 
     header h1 {
-        color: aqua;
         letter-spacing: 5px;
     }
 
@@ -296,6 +315,27 @@
     #main_parte_2 div {
         width: 20vw;
     }
+    
+    #popular {
+        padding: 0px 30px;
+        height: 410px;
+        flex-wrap: wrap;
+        overflow: hidden;
+        width: auto;
+        margin: 0px;
+    }
+
+    #popular .popular-1 {
+        position: relative;
+        right: -6%;
+    }
+
+    #popular .popular-2 {
+        display: flex;
+        position: relative;
+        top: 48%;
+        right: 40%;
+    }
 }
 
 
@@ -313,7 +353,6 @@
     }
 
     header h1 {
-        color: rgb(255, 0, 0);
         letter-spacing: 5px;
     }
 
@@ -430,5 +469,48 @@
 
     #main_parte_2 div {
         width: 17vw;
+    }
+
+    #popular {
+        padding: 0px 30px;
+        height: 410px;
+        flex-wrap: wrap;
+        overflow: hidden;
+        width: auto;
+        margin: 0px;
+    }
+
+    #popular div div {
+        width: 30vw;
+    }
+
+    #popular .popular-1 {
+        position: relative;
+        right: 20%;
+    }
+
+    #popular .popular-2 {
+        display: flex;
+        position: relative;
+        top: 48%;
+        left: -65%;
+    }
+
+    #about_site p {
+        width: 400px;
+    }
+
+    #popular-about {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        background-color: white;
+        padding-bottom: 60px;
+        overflow: hidden;
+    }
+
+    #about-media {
+        position: relative;
+        left: 4%;
     }
 }
