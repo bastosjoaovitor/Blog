@@ -5,7 +5,9 @@ Este é o meu segundo projeto, um blog de música chamado "Sonittus".
 ## Tecnologias Usadas 💻
 
 - **HTML**: Utilizado para criar a estrutura do site, incluindo a organização dos elementos como cabeçalho, navegação, conteúdo e rodapé.
+
 - **CSS**: Responsável pela estilização do site, incluindo cores, fontes, layouts responsivos e animações, tornando-a visualmente atraente.
+
 - **JavaScript**: Implementado para adicionar interatividade ao site, como efeitos de hover, transições suaves e funcionalidades de menu, melhorando a experiência do usuário.
 
 ## Sobre o Projeto 📝
