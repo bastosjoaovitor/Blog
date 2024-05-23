@@ -1,19 +1,44 @@
-# Sonittus: Blog de Música 🎵
+# Sonittus: Music Blog
 
-Este é o meu segundo projeto, um blog de música chamado "Sonittus".
+Sonittus is a fictional music blog created as a portfolio project. Although the blog content is fictional, every element has been carefully designed and implemented to create a realistic user experience. The project covers various areas of web development, from responsive design to the implementation of interactivity with JavaScript.
 
-## Tecnologias Usadas 💻
+## Other Languages
 
-- **HTML**: Utilizado para criar a estrutura do site, incluindo a organização dos elementos como cabeçalho, navegação, conteúdo e rodapé.
+- [Versão em Português](README_pt-BR.md)
 
-- **CSS**: Responsável pela estilização do site, incluindo cores, fontes, layouts responsivos e animações, tornando-a visualmente atraente.
+## Technologies Used
 
-- **JavaScript**: Implementado para adicionar interatividade ao site, como efeitos de hover, transições suaves e funcionalidades de menu, melhorando a experiência do usuário.
+- **HTML**: Used to create the site structure, including organizing elements such as header, navigation, content, and footer.
+- **CSS**: Responsible for styling the site, including colors, fonts, responsive layouts, and animations, making it visually appealing.
+- **JavaScript**: Implemented to add interactivity to the site, such as hover effects, smooth transitions, and menu functionalities, enhancing the user experience.
 
-## Sobre o Projeto 📝
+## Features
 
-O Sonittus é um blog de música fictício criado como um projeto de portfólio. Embora o conteúdo do blog seja fictício, cada elemento foi cuidadosamente projetado e implementado para criar uma experiência de usuário realista. O projeto abrange várias áreas do desenvolvimento web, desde o design responsivo até a implementação de interatividade com JavaScript.
+- Responsive layout that adapts to different devices and screen sizes.
+- Hover effects and smooth transitions for a better user experience.
+- Intuitive navigation with an interactive menu.
+- Sections of fictional music posts with styled content.
 
-## Link do Projeto 🌐
+## Contribution
 
-[Clique Aqui](https://bastosjoaovitor.github.io/Blog/Pages/home.html) ou acesse o link "https://bastosjoaovitor.github.io/Blog/Pages/home.html"
+Contributions are welcome! If you wish to contribute to this project, please follow the steps below:
+
+1. Fork this repository.
+2. Create a branch for your feature.
+3. Commit your changes.
+4. Push to the branch.
+5. Open a Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Author
+
+Created by [João Vitor Bastos](https://github.com/bastosjoaovitor).
+
+## Project Link
+
+To view the complete project and explore its features, access the link below:
+
+[Project Link](https://bastosjoaovitor.github.io/Blog/Pages/home.html).
