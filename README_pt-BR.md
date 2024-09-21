@@ -4,7 +4,7 @@ O Sonittus é um blog de música fictício criado como um projeto de portfólio.
 
 ## Other Languages
 
-- [English version](README.md)
+- [English version](Readme.md)
 
 ## Tecnologias Utilizadas
 
